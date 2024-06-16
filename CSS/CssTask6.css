@@ -1,0 +1,43 @@
+.container {
+  width: 400px;
+  height: 100%;
+  margin-left: 35%;
+  margin-top: 100px;
+}
+
+img {
+  position: relative;
+  left: 110px;
+  width: 200px;
+  height: 200px;
+}
+
+#Username,
+#password {
+  width: 100%;
+  height: 25px;
+}
+
+#login {
+  width: 102%;
+  height: 32px;
+  background-color: rgb(121, 192, 16);
+  border: none;
+  font-weight: 700;
+  color: white;
+}
+
+#cancel {
+  background-color: orange;
+  border: none;
+  width: 25%;
+  height: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+a {
+  position: relative;
+  left: 180px;
+  color: black;
+}

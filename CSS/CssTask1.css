@@ -1,0 +1,51 @@
+table {
+  background-color: aqua;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.box {
+  width: 600px;
+  height: 450px;
+  border: 3px solid black;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.minibox {
+  border: 5px solid lightgreen;
+  width: 175px;
+  height: 120px;
+  margin: auto;
+}
+
+#mb1,
+#mb8 {
+  border-radius: 8px;
+}
+
+#mb2,
+#mb4 {
+  border-radius: 15px;
+}
+
+#mb3,
+#mb6 {
+  border-radius: 30px;
+}
+
+#mb7 {
+  border-radius: 100%;
+}
+
+#mb9 {
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}

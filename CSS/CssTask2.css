@@ -1,0 +1,64 @@
+.container {
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hornavbar {
+  margin: auto;
+  background-color: rgb(177, 175, 175);
+  height: 240px;
+  width: 240px;
+}
+
+.vernavbar {
+  margin: auto;
+  background-color: white;
+  height: 80px;
+  width: 600px;
+  border: 1px solid black;
+}
+
+.box2 {
+  display: flex;
+  background-color: gray;
+  height: 50px;
+  width: 96%;
+  margin: 6px 10px 6px 10px;
+  flex-direction: row;
+}
+
+.box1 {
+  height: 180px;
+  width: 180px;
+  background-color: cadetblue;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu1 {
+  height: 20%;
+  width: 90%;
+  padding-left: 10%;
+  color: blue;
+  padding-top: 7px;
+}
+
+.menu1:hover {
+  color: white;
+  background-color: rgb(197, 178, 8);
+}
+
+.menu2 {
+  height: 70%;
+  width: 20%;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.menu2:hover {
+  color: white;
+  background-color: black;
+}
