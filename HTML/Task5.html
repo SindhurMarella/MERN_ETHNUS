@@ -1,0 +1,114 @@
+<style>
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+
+  table,
+  tr,
+  td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 700px;
+  }
+
+  .short {
+    width: 200px;
+  }
+  input.text,
+  input.email,
+  input.password,
+  select {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+
+  caption {
+    color: blue;
+    font-size: 50px;
+  }
+</style>
+
+<table>
+  <caption>
+    Registration Form
+  </caption>
+  <tr>
+    <td class="short"><strong>First name</strong></td>
+    <td><input class="text" type="text" /></td>
+  </tr>
+  <tr>
+    <td class="short"><strong>Last name</strong></td>
+    <td><input class="text" type="text" /></td>
+  </tr>
+  <tr>
+    <td class="short"><strong>Email</strong></td>
+    <td><input class="email" type="email" /></td>
+  </tr>
+  <tr>
+    <td class="short"><strong>Password</strong></td>
+    <td><input class="password" type="password" /></td>
+  </tr>
+  <tr>
+    <td class="short"><strong>Re-password</strong></td>
+    <td><input class="password" type="password" /></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="short"><strong>Gender:</strong></td>
+    <td><input type="radio" value="Male" />Male</td>
+  </tr>
+  <tr>
+    <td><input type="radio" value="Female" />Female</td>
+  </tr>
+  <tr>
+    <td class="short"><strong>Age</strong></td>
+    <td><input class="text" type="text" /></td>
+  </tr>
+  <tr>
+    <td class="short"><strong>Phone no:</strong></td>
+    <td><input class="text" type="tel" /></td>
+  </tr>
+  <tr>
+    <td class="short"><strong>Address</strong></td>
+    <td><textarea rows="5" placeholder="Enter your Address"></textarea></td>
+  </tr>
+  <tr>
+    <td class="short"><strong>State</strong></td>
+    <td><input class="text" type="text" /></td>
+  </tr>
+  <tr>
+    <td class="short"><strong>Country</strong></td>
+    <td>
+      <select>
+        <option>Choose your country</option>
+        <option>India</option>
+        <option>Pakistan</option>
+        <option>USA</option>
+        <option>Other</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td class="short"><strong>State</strong></td>
+    <td>
+      <input type="checkbox" />English <input type="checkbox" />Hindi
+      <input type="checkbox" />Telugu <input type="checkbox" />Kannada
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <input type="checkbox" /> Hereby, I declare that all the above furnushed
+      information is true to the best of my knowledge.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: end">
+      <a href="https://ethnus.com/" target="_blankbb">Click here</a> to log into
+      Ethnus website.
+    </td>
+  </tr>
+</table>
